@@ -4,7 +4,7 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    return <TieTacToe />;
+    return <TieTacToe boardSize={8} />;  // You can change the board size here
   }
 }
 
